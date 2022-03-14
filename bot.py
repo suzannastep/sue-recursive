@@ -131,10 +131,10 @@ class TicTacToeBot:
 
     def move(self, board):
         outcome,move = self.get_curr_outcome(board,curr=self.player,verbose=True)
-        # if outcome == 1:
-        #     print(choice(self.win_taunts))
-        # if outcome == 0:
-        #     print(choice(self.draw_taunts))
-        # if outcome == -1:
-        #     print(choice(self.loose_taunts))
+        if outcome == 1:
+            print(choice(self.win_taunts))
+        if outcome == 0:
+            print(choice(self.draw_taunts))
+        if outcome == -1:
+            print(choice(self.loose_taunts))
         return {"x": move[0], "y": move[1]}
