@@ -1,0 +1,18 @@
+// ⚠️ Only modify this file if you know what you're doing!
+{
+  "files.exclude": {
+    ".vscode": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/Thumbs.db": true,
+    "main.py": true,
+    "zilch.json": true,
+    "README.md": true,
+    "avatar.svg": true
+  },
+  "extensions.ignoreRecommendations": true,
+  "workbench.startupEditor": "none",
+}
